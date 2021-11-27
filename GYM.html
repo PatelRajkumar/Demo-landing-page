@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Fitness hub</title>
+    <style>
+        *{ 
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+        body{
+            background: url(https://images.unsplash.com/photo-1579047172169-515291e29467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+         .left{
+             /* border: 2px solid red; */
+             display: inline-block;
+             position:absolute;
+             font-size: 18px;
+             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+             top: 10px;
+             left: 20px;
+         }
+         .left img{
+             border-radius: 50%;
+             display: block;
+             padding: 10px;
+             margin: auto;
+             width: 80px;
+             height: 80px;
+         }
+         .mid{
+             display: block;
+             /* border: 2px solid rgb(5, 126, 21); */
+             width: 50%;
+             margin: 30px auto;
+         }
+         .mid ul{
+             margin: auto;
+         }
+         .mid li{
+             display: inline-block;
+             padding: 15px 12px;
+         }
+         .mid li a{
+              text-decoration: none;
+              text-align: center;
+              font-size: 20px;
+              font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
+         .mid li a:hover , .mid li a.active{
+             text-decoration:unset;
+             color: rgb(199 196 205 / 71%);
+         }
+         .right{
+             /* border: 2px solid blue; */
+             position: absolute;
+             display: inline-block;
+             top: 20px;
+             right: 20px;
+         }
+         .btn{
+              background-color:rgb(56, 55, 55);
+              margin: 10px;
+              padding: 10px;
+              font-size: 15px;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              border-radius: 5px;
+              border: 2px solid white;
+              cursor:pointer;
+         }
+         .btn:hover{
+             background-color: white;
+             color: black;
+             border: 2px solid rgb(56, 55, 55) ;
+         }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/630/858/non_2x/vector-dumbbell-icon-symbol-sign.jpg" alt="Logo">
+          <p>RK Fitness hub</p>
+        </div>
+        <div class="mid">
+        <ul>
+            <li> <a href="#" class="active">Home</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Contact Us</a></li>
+            <li> <a href="#">Fitness Calculator</a></li>
+        </ul>
+        </div>
+        <div class="right">
+              <button class="btn">Call Now</button>
+              <button class="btn">Email Us</button>
+        </div>
+    </header>
+</body>
+</html>
